@@ -1,4 +1,5 @@
 # Command-Git
+*
 
 List of git command
 
@@ -14,16 +15,17 @@ Dentro do projeto criar arquivo ".gitignore" e colocar camminhos de pastas e arq
 
 .gitignore deve ser comitado
 
-
-
-
+*
+*
+*
 CRIAR SERVIDOR REMOTO LOCAL
 
 git init --bare (primeiro passo para criar o servidor local, caso tenha esquecido de --bare digite: git config core.bare true)
 
 git remote add local {caminho} (adicione o caminho da sua pasta)
-
-
+*
+*
+*
 PARA CLONAR PROJETOS PARA SEU GIT
 
 git clone {caminho} projeto (Substitua {caminho} pelo caminho completo da pasta que criamos no primeiro passo)
